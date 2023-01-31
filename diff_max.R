@@ -28,4 +28,5 @@ diff_max <- function(df_teljes) {
   }
   
   return(beadas)
+  return(diff_df$same)
 }
