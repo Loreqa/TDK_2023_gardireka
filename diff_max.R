@@ -8,7 +8,6 @@ diff_max <- function(df_teljes) {
   }
   
   diff_df <- t(diff_df[,-1])
-  hist(diff_df)
   diff_df <- as.data.frame(diff_df)
   colnames(diff_df) <- "date"
   diff_df$cell <- rownames(diff_df)
