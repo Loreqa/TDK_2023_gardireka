@@ -19,5 +19,6 @@ training_atalakito <- function(df_eredeti, df_spontan) {
   colnames(df_eredeti) <- paste("t_", oszlopnev, sep = "")
   rownames(df_eredeti) <- sornev
   colnames(df_eredeti)[ncol(df_eredeti)] <- "spontan"
+  assign('training',df_eredeti,envir=.GlobalEnv)
   
 }
