@@ -1,1 +1,1 @@
-# TDK_2023
+#munka során használt kódok
